@@ -14,7 +14,9 @@ struct Home: View {
                 Text("Hello, Coders!")
             }
             .navigationBarTitleDisplayMode(.inline)
+            // navigationBarItems(leading:trailing:) is deprecated for iOS 13.0–16.0, use ToolbarItem insted.
             .toolbar {
+                // Optional button, you can use it as Save/Enter button
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action:{
                         // Do something
@@ -33,8 +35,10 @@ struct Home: View {
                                 .padding()
                         }
                         VStack(alignment: .leading) {
-                            Text("Perfil").font(.subheadline)
-                            Text("Editar perfil").font(.headline)
+                            // Write the title of the Parent view
+                            Text("Text1").font(.subheadline)
+                            // Write here the Title of your view
+                            Text("Text2").font(.headline)
                         }
                     }
                 }
