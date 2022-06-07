@@ -2,7 +2,7 @@
 //  MultilineNavigationBarApp.swift
 //  MultilineNavigationBar
 //
-//  Created by Colimasoft on 07/06/22.
+//  Created by Zelxius.
 //
 
 import SwiftUI
